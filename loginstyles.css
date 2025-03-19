@@ -1,0 +1,154 @@
+*{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: small;
+}
+body{
+    background-color: black;
+}
+.login-page{
+    background-color: black;
+    width:25%;
+    color: white;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+.login-form{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid rgb(67, 65, 65) 1px;
+    border-radius: 5px;
+}
+.divider {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    max-width: 500px;
+  }
+  
+  .line {
+    height: 1px;
+    background-color: #333;
+    width: 40%;
+    margin: 0px 15px;
+  }
+  
+  .or-text {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+#instalogo{
+     height:60px;
+     padding:30px 100px 20px 100px;
+}
+.login-input input{
+     margin: 10px 50px;
+     padding: 0px 10px;
+     width: 70%;
+    height:30px;
+    background-color:rgb(18, 17, 17);
+    border: solid gray 1px;
+    border-radius: 2px;
+    color: white;
+}
+
+.login-form button{
+    margin: 20px 50px;
+    padding: 0px 10px;
+    width: 75%;
+   height:30px;
+   background-color:#408bf4;
+   border: solid #408bf4 1px;
+   border-radius: 5px;
+}
+
+.login-form span {
+    color: white;
+    font-weight:bold;
+}
+.login-fb{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 110px;
+
+}
+.login-fb p{
+    color:#408bf4;
+    font-weight: bolder;
+
+}
+.login-fb p:hover{
+    color: white;
+}
+.login-forgotpswd{
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+.login-forgotpswd:hover{
+    cursor: pointer;
+}
+.signup{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid rgb(67, 65, 65) 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.signup p{
+    padding: 10px 95px;
+}
+.signup span{
+    color: #408bf4;
+}
+.signup span:hover{
+    cursor: pointer;
+}
+.get p{
+    display: flex;
+    justify-content: center;
+}
+.apps{
+    display: flex;
+    justify-content: center; 
+    
+}
+.apps img{
+    width:120px;
+    padding: 10px;
+}
+.footer{
+    padding-top: 60px;
+}
+.links{
+    display: flex;
+    justify-content:center;
+    
+}
+.links a{
+    padding:10px;
+    color: rgb(238, 236, 236);
+    text-decoration: none;
+}
+.final-line{
+    display: flex;
+    justify-content: center; 
+    color: rgb(238, 236, 236);
+}
+.final-line p{
+    padding-left: 20px;
+}
+.links a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.final-line p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

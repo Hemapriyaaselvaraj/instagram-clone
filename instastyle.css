@@ -1,0 +1,252 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: small;
+    }
+body{
+    background-color: black;
+    
+}
+.partition{
+    display: flex;
+    justify-content: space-between;
+}
+.left-tab {
+    border-right: solid rgb(47, 46, 46) 1px;
+    width: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;  /* Full viewport height */
+    overflow-y: auto;  /* In case of overflow inside the panel */
+    z-index: 100;  
+    }
+.menu{
+     padding-left: 20px;
+}
+.menu img{
+    width:100px;
+    padding: 20px 0px;;
+
+}
+.tab{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-top: 5px;
+}
+.menu-icon{
+    color: white;
+    margin-right: 15px;;
+}
+
+.menu-item{
+    color: white;
+    font-size:medium;
+}
+.tab-footer{
+    margin-top: 90px;
+    bottom: 20px;
+    padding-left: 20px;
+
+}
+.center-tab{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 20%;
+}
+.stories {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.story:hover {
+  cursor: pointer;
+}
+.story-name {
+    color: white;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.round-image {
+    width: 60px; /* Set the desired width */
+    height: 60px; /* Set the desired height */
+    border-radius: 50%; /* This makes the image circular */
+    overflow: hidden;
+    padding: 2px;
+    margin: 7px;
+    border: solid rgb(186, 58, 105) 2px;
+}
+.round-image img{
+    width: 100%; /* Ensures the image fills the container */
+    height: 100%; /* Ensures the image fills the container */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.profile span{
+    color:azure
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.right{
+    padding-right: 175px;
+    font-size:small;
+    color:blueviolet
+}
+
+
+.posts {
+    margin-top: 10px;
+    width: 60%;
+}
+
+.post {
+    margin-bottom: 15px;
+
+}
+.post-profile-image {
+    width: 40px; /* Set the desired width */
+    height: 40px; /* Set the desired height */
+    border-radius: 50%; /* This makes the image circular */
+    overflow: hidden;
+    padding: 2px;
+    margin-right: 7px;
+    border: solid rgb(43, 42, 42) 2px;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.post-header-name {
+    display: flex;
+    align-items: center;
+}
+.post-profile-name {
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding-right: 5px;
+}
+.post-header-menu {
+    color: white;
+}
+.post-time {
+    color: rgb(137, 130, 130);
+    font-size: medium;
+}
+.post-body img {
+    width: 100%;
+    border-radius: 3px;    
+}
+
+.post-body video {
+    width: 100%;
+    border-radius: 3px;    
+}
+
+.like-post-icon{
+    color: white;
+    margin: 5px;
+}
+.like-post-icon:hover{
+    cursor: pointer;
+}
+
+.action-bar{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-footer{
+    color: white;
+    font-size: medium;
+}
+
+.post-footer b {
+    margin-right: 5px;
+}
+.post-footer p, .post-footer b {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+.post-footer-subtext {
+    color: rgb(174, 171, 171);
+}
+.profile-image {
+    width: 45px; /* Set the desired width */
+    height: 45px; /* Set the desired height */
+    border-radius: 50%; /* This makes the image circular */
+    overflow: hidden;
+    padding: 2px;
+    margin: 7px;
+}
+.last-tab{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+   
+} 
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+
+}
+.left a{
+    text-decoration: none; 
+}
+.switch-profile{
+    font-size: small;
+    text-decoration: none; 
+    color:white;
+}
+
+.switch-profile:hover {
+    color: #408bf4;
+    cursor: pointer;
+}
+
+.left p {
+    padding: 0px;
+    margin: 0px;
+}
+.username{
+    color: white;
+}
+.profilename{
+    color:  rgb(174, 171, 171);
+}
+.sugg-header {
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.sugg-header p {
+    color: rgb(138, 136, 136);
+}
+.follow-profile{
+    font-size: small;
+    text-decoration: none; 
+    color:#408bf4;
+}
+.terms{
+    color:gray;
+    padding-left: 40px;
+}
